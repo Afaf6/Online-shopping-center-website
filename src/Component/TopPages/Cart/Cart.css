@@ -1,0 +1,106 @@
+#tableshap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+table{
+    
+    gap: 2rem;
+    padding: 5px;
+    display: table;
+    border-collapse: collapse;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 90%;
+}
+p{
+    color: rgba(159, 159, 159, 1);
+}
+tr {
+    display: table-row;
+}
+td, th {
+    display: table-cell;
+    padding: 1rem;
+    text-align: center; 
+    width: 25%;
+    padding: 1rem;
+}
+
+#headertable{
+    background: rgba(249, 241, 231, 1);
+    height: 40px;
+    column-gap: 2rem;
+    display: table-header-group;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+}
+#tableshap img{
+    width: 40%;
+    height: 30%;
+}
+#bodytable{
+    text-align: center;
+    display: table-row-group;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.itemimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size:smaller;
+}
+.itemimg p{
+    width: 30%;
+    height: 20%;
+}
+.btnremove{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnremove button{
+    width: 40px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#pricedetails{
+    background: rgba(249, 241, 231, 1);
+    margin: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.totalprice{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+}
+.checkbtn{
+    border: 1px solid rgb(117, 110, 110);
+    background-color: transparent;
+    width: 100px;
+    height: 40px;
+    border-radius: 1rem;
+}
+.gold{
+    color: rgba(184, 142, 47, 1);
+}

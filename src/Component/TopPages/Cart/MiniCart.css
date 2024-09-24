@@ -1,0 +1,28 @@
+#detailscart{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    padding: 10px;
+    border: 2px solid rgba(189, 187, 187, 0.844);
+    border-radius: 2rem;
+    margin: 10px;
+    width: 80%;
+    position:static;
+
+}
+
+#detailscart img{
+    width: 15%;
+    height: 20%;
+    display: flex;
+    margin: auto;
+}
+#detailscart h3{
+    font-size: medium;
+}
+
+#subprice{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}

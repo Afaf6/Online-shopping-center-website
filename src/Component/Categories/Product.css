@@ -1,0 +1,127 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+}
+.main span{
+    color: rgba(159, 159, 159, 1);
+}
+.imgproduct img{
+    width: 200px;
+}
+.imgproduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+.details{
+    width: 60%;
+}
+.sizebtn {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    padding: 10px;
+}
+.sizebtn button{
+    background:rgba(249, 241, 231, 1) ;
+    color: #000;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.sizebtn button:hover{
+    background-color: rgba(184, 142, 47, 1);
+    color: aliceblue;
+}
+.colorbtn{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    padding: 10px;
+}
+.colorbtn button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.colorbtn span{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot1{
+    background-color:rgba(129, 109, 250, 1) ;
+}
+.dot2{
+    background-color: #000;
+}
+.dot3{
+    background-color: rgba(184, 142, 47, 1);
+}
+.supdata{
+    display: flex;
+    flex-direction: column;
+    color: rgba(159, 159, 159, 1);
+    border-top: 1px rgba(159, 159, 159, 1) solid;
+    padding: 10px;
+    margin-top: 10px;
+}
+.share{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+.counter{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    display: flex;
+    align-items: center;
+}
+.counter button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn{
+    border: 0.5px solid rgba(189, 187, 187, 0.844);
+    width: 80px;
+    height: 30px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.addbtn{
+    border: 0.5px solid rgba(0, 0, 0, 0.844);
+    width: 100px;
+    height: 50px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#headerproduct{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    align-items: center;
+    background-color: rgba(249, 241, 231, 1);
+    height: 80px;
+    padding: 10px;
+}
+.titlename{
+    color: #000;
+}
