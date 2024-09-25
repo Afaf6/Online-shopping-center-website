@@ -79,14 +79,16 @@ function Product() {
 
                 <br></br>
 
-                <>
+                
+                {item.category !== "jewelery" && item.category !== "electronics" && (
+                    <>
                 <span>Size</span>
                 <div className="sizebtn">
                     <button> L </button>
                     <button> XL </button>
                     <button> XS </button>
                 </div>
-                </>
+            
 
                 <br></br>
 
@@ -95,7 +97,9 @@ function Product() {
                     <button><span className="dot1"></span></button>
                     <button><span className="dot2"></span></button>
                     <button><span className="dot3"></span></button>
-                </div>
+                </div> </>
+                )}
+               
 
                 <div className="counter">
                 <div className="btn">

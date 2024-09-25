@@ -47,7 +47,10 @@
     width: 300px;
     height: 500px;
     font-size: medium;
+    position: relative;
+    overflow: hidden;
 }
+
  a{
     color: black ;
     text-decoration: none;
@@ -57,11 +60,24 @@
     width: 180px;
     height: 250px ;
 }
-.showbtn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
+
+
+.showbtn {
+    display: flex; /* اجعل الزر مرئيًا بشكل افتراضي */
+    position: absolute; /* لجعل الزر يتداخل مع الصورة */
+    top: 0; /* بدء من الأعلى */
+    left: 0; /* بدء من اليسار */
+    width: 100%; /* عرض الزر ليملأ المنتج بالكامل */
+    height: 50%; /* ارتفاع الزر ليملأ المنتج بالكامل */
+    background-color: rgba(0, 0, 0, 0.7); /* لون خلفية شبه شفاف */
+    color: white; /* لون نص الزر */
+    border: none; /* إزالة الحدود */
+    justify-content: center; /* توسيط المحتوى أفقيًا */
+    align-items: center; /* توسيط المحتوى عموديًا */
+    opacity: 0; /* اجعل الزر غير مرئي */
+    pointer-events: none; /* منع التفاعل مع الزر عندما يكون غير مرئي */
+    transition: opacity 0.3s; /* إضافة تأثير انتقال سلس */
+    border-radius: 1rem;
 }
 .titledetails{
     background-color: #cdcfd71d;
@@ -76,9 +92,9 @@
 }
 .textproduct{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
+
 .fullscreen{
     border: none;
     background-color: rgb(251, 251, 251);
@@ -87,17 +103,11 @@
     width: 80px;
     margin: auto;
     cursor: pointer; 
-    /* transition: background-color 0.3s, transform 0.3s; */
+    border: solid 0.5px rgb(232, 193, 105);
     transition: transform 0.3s ease, opacity 0.3s ease, width 0.3, hight 0.3, top ; 
 }
-.fullscreen:hover{
-    opacity: 0.7; 
-    background-color: rgb(78, 76, 76);
-    border-radius: 5px; 
-    transition: 2s;
-    cursor: pointer; 
-    transform: scale(1.05);
-    width: 320px;
-    height: 50px;
-    position: absolute;
+
+.product:hover .showbtn {
+    opacity: 1; /* اجعل الزر مرئيًا عند التمرير فوق المنتج */
+    pointer-events: auto;
 }

@@ -125,3 +125,14 @@
 .titlename{
     color: #000;
 }
+.addbtn:active{
+    background-color: rgba(184, 142, 47, 1);
+    color: aliceblue;
+    border: none;
+}
+.btn button:hover{
+    background-color: rgba(184, 142, 47, 1);
+    color: aliceblue;
+    border: none;
+    border-radius: 0.5rem;
+}

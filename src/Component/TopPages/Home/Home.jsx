@@ -12,10 +12,6 @@ function Home () {
     const [data, setData] = useState(null);
 
     const ArrayOfPictures = [
-        // {id:1, Pic:electronics},
-        // {id:2, Pic:jewelry},
-        // {id:3, Pic:menclothes},
-        // {id:4, Pic:womenclothes},
 
         { id: 1, name: 'jewelery', Pic: jewelry },
         { id: 2, name: 'electronics', Pic: electronics },
@@ -37,7 +33,7 @@ function Home () {
 
     return (
         <>
-        <div id="background" >
+        <div id="background1" >
             <img src={background}/>
         </div>
         <div className="Title">
