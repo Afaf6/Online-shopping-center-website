@@ -44,10 +44,10 @@ function Contact () {
         <>
         <div id="background" >
             <img src={background}/>
-            <div className="overflow">
+            <div className="overflowcontect">
             <img className="logo" src={logo}/>
                 <h1>Contact</h1>
-                <div className="pagestitle">
+                <div className="pagestitlecontect">
                     <h5>Home</h5>
                     <span> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20"><path fill="currentColor" d="m6 15l5-5l-5-5l1-2l7 7l-7 7z"></path></svg> </span>
                     <h6>Contact</h6>
